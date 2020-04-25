@@ -95,8 +95,6 @@ We pool the training set and the development set as the actual training data, 10
 All results are evaluated on the respective evaluation set.
 
 
-![Image text](https://github.com/JiJiJiang/ASV-Anti-Spoofing-DADA/blob/master/figs/Results.png)
-
 ## Citation
 
 If you use our models, please cite the following papers:
