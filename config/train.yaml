@@ -1,0 +1,38 @@
+labels: ASV17/labels/train_dev.txt
+outdomain: ASV17
+features: data/ASV17/features/SPEC_PY/SPEC_PY_train_dev.ark
+outputpath: experiments/
+label_type: label # can be label, DAT, DADA
+seed: 1
+dataloader_args:
+        batch_size: 8
+        num_workers: 2
+        percent: 90
+optimizer: SGD
+optimizer_args:
+        lr: 0.001
+        momentum: 0.9
+epochs: 500
+model: LightCNN_9Layers
+model_args: {}
+feature_args:
+        cmvn: True
+        delta: False
+        splice: 0
+scaler: StandardScaler
+scaler_args:
+    with_std: True
+    with_mean: True
+improvecriterion: loss # Can also be acc | loss
+saveinterval: 5 #Save every 5 epochs to see what happened
+loss: CrossEntropyLoss
+loss_args: {}
+scheduler: ReduceLROnPlateau
+scheduler_args:
+        mode: min
+        factor: 0.1
+        patience: 10
+        cooldown: 1
+        verbose: False
+        threshold: 0.001
+
