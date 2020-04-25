@@ -95,7 +95,7 @@ We pool the training set and the development set as the actual training data, 10
 All results are evaluated on the respective evaluation set.
 
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://github.com/JiJiJiang/ASV-Anti-Spoofing-DADA/blob/master/figs/Results.png)
 
 ## Citation
 
