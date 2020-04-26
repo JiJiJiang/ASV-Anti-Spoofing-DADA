@@ -1,10 +1,32 @@
 # ASV-Anti-Spoofing-DADA
 
 A Pytorch implementation of the Dual-Adversarial Domain Adaptation (DADA) approach for replay spoofing detection in automatic speaker verification (ASV).
-
 Paper has been submitted to [INTERSPEECH 2020](http://www.interspeech2020.org/).
 
 Please get your running environment ready firstly, e.g., [Pytorch 1.1+](http://pytorch.org/), [Kaldi](https://github.com/kaldi-asr/kaldi), etc. **Specially, do not forget to update `path.sh` for Kaldi.**
+
+Python requirements are:
+
+```
+matplotlib==3.1.1
+pandas==0.23.3
+kaldi_io==0.9.1
+fire==0.1.3
+tableprint==0.8.0
+torch==1.1.0
+tabulate==0.8.3
+torchnet==0.0.4
+numpy==1.17.3
+imbalanced_learn==0.5.0
+imblearn==0.0
+librosa==0.7.2
+PyYAML==5.3.1
+scikit_learn==0.22.2.post1
+soundfile==0.10.3.post1
+tqdm==4.45.0
+```
+
+To install them, just run `pip install -r requirements.txt`.
 
 ### Table of Contents
 - <a href='#Datasets'>Datasets</a>
