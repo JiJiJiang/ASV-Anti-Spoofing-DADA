@@ -45,6 +45,8 @@ We use two real-case replay datasets, whese replay attacks are replayed and reco
 * [ASVspoof 2017](https://datashare.is.ed.ac.uk/handle/10283/3055) uses a variety of replay configurations (acoustic environment, recording and playback devices). It focuses on `in the wild` scenes.
 * BTAS 2016 is based on [AVspoof](https://www.idiap.ch/dataset/avspoof) dataset. This dataset contains both PA and LA attacks, but only the PA portion (denoted as BTAS16-PA) is used in our experiments.
 
+After downloading these datasets, please use your own data paths in `data/ASV17/flists/*.scp` and `data/BTAS16-PA/flists/*.scp`.
+
 
 ## Feature_Extraction
 
